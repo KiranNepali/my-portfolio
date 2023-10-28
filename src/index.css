@@ -1,0 +1,30 @@
+@import "./App.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-[Poppins];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+    @apply hover:text-red-300;
+  }
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    #f05454,
+    hsla(41, 64%, 70%, 0.8)
+  ) !important;
+}
