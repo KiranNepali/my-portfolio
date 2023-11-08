@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div name="about" className="w-full h-screen bg-[#201e2a] text-white">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="mx-w-[1000px] w-full grid gap-8 grid-cols-2">
+        <div className="max-w-[1000px] w-full grid gap-8 grid-cols-2">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-red-300 ">
               About
@@ -22,12 +22,13 @@ export default function About() {
           </div>
           <div>
             <p className="text-[#9DB2BF]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-              nesciunt laboriosam ex nam asperiores optio aperiam aspernatur,
-              pariatur amet inventore officia nisi vel nemo atque quos ipsum
-              quas provident deserunt! Voluptatem debitis eligendi iste.
-              Voluptas iste voluptatum, rerum, nostrum veniam repellendus natus
-              vero tenetur, dolores quas deleniti in at tempora consequuntur.
+              I'm a determined and highly motivated person with a strong desire
+              to succeed in the information technology field. I'm passionate
+              about creating useful web applications and believe in the
+              importance of teamwork and collective progress. I've improved the
+              efficiency of customizing, implementing, and testing user-friendly
+              designs through my personal and academic projects. I'm eager to
+              continue learning and gaining more programming experience.
             </p>
           </div>
         </div>

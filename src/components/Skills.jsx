@@ -1,4 +1,5 @@
 import React from "react";
+import HTMLImage from "../assets/html-5.png";
 import ReactImg from "../assets/react.png";
 import CSSImg from "../assets/css.png";
 import JavascriptImg from "../assets/javascript.png";
@@ -17,15 +18,19 @@ export default function Skills() {
             // Technologies that I'm familiar with.
           </p>
         </div>
-        {/* imgaes */}
+        {/* images */}
         <div className="w-full text-center grid grid-cols-2 sm:grid-cols-4 gap-4 py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={ReactImg} alt="" />
-            <p className="my-4">React</p>
+            <img className="w-20 mx-auto" src={HTMLImage} alt="" />
+            <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={CSSImg} alt="" />
             <p className="my-4">CSS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto" src={ReactImg} alt="" />
+            <p className="my-4">React</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={JavascriptImg} alt="" />

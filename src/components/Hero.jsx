@@ -14,9 +14,8 @@ function Hero() {
           I'm Frontend Developer
         </h2>
         <p className="py-4 text-[#9DB2BF]">
-          Lorem ipsum dolor sit amet ipsa ab consectetur unde placeat eaque nam
-          a hic dignissimos quod architecto magnam nulla assumenda at deleniti,
-          natus minima voluptatum laboriosam!
+          Dedicated and passionate about staying updated on industry best
+          practices and coding standards!
         </p>
         <div>
           <button className=" text-gray-300 flex justify-center  items-center border-2 px-6 py-2 hover:bg-[#FFC436] hover:border-[#FFC436] group">

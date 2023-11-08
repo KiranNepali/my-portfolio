@@ -7,6 +7,7 @@
 @layer base {
   body {
     @apply font-[Poppins];
+    @apply font-[chillax];
   }
   li {
     @apply px-4;
