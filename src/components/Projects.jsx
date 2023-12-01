@@ -1,6 +1,8 @@
 import React from "react";
 import MovieImg from "../assets/movie.png";
 import EcommerceImg from "../assets/ecommerce.png";
+import RecipeApp from "../assets/find-recipe.png";
+import YoutubeClone from "../assets/youtube-clone.png";
 import "../index.css";
 
 export default function Projects() {
@@ -46,22 +48,22 @@ export default function Projects() {
           </div>
           <div
             style={{
-              backgroundImage: `url(${EcommerceImg})`,
+              backgroundImage: `url(${RecipeApp})`,
             }}
             className="shadow-lg shadow-[#040c16] container flex  justify-center items-center mx-auto rounded-md group content-div"
           >
             {/* hover effect  */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold tracking-wider text-white ">
-                Ecommerce
+                Find Recipe
               </span>
               <div className="pt-8 text-center ">
-                <a href="">
+                <a href="https://find-recipe-seven.vercel.app/">
                   <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/KiranNepali/find-recipe">
                   <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
                     Code
                   </button>
@@ -72,14 +74,14 @@ export default function Projects() {
           </div>
           <div
             style={{
-              backgroundImage: `url(${EcommerceImg})`,
+              backgroundImage: `url(${YoutubeClone})`,
             }}
             className="shadow-lg shadow-[#040c16] container flex  justify-center items-center mx-auto rounded-md group content-div"
           >
             {/* hover effect  */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold tracking-wider text-white ">
-                Ecommerce
+                Youtube clone
               </span>
               <div className="pt-8 text-center ">
                 <a href="">
@@ -87,7 +89,7 @@ export default function Projects() {
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/KiranNepali/youtube-clone">
                   <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
                     Code
                   </button>

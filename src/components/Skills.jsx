@@ -4,6 +4,7 @@ import ReactImg from "../assets/react.png";
 import CSSImg from "../assets/css.png";
 import JavascriptImg from "../assets/javascript.png";
 import GithubImg from "../assets/github.png";
+import TailwindImg from "../assets/tailwind.png";
 
 export default function Skills() {
   return (
@@ -35,6 +36,10 @@ export default function Skills() {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={JavascriptImg} alt="" />
             <p className="my-4">Javascript</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="mx-auto my-4 w-24" src={TailwindImg} alt="" />
+            <p className="my-4">Tailwind</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={GithubImg} alt="" />
