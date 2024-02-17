@@ -5,16 +5,28 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import { useRef } from "react";
+import "./locomotive.css";
 export default function App() {
+  const containerRef = useRef(null);
+
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-    </>
+    <LocomotiveScrollProvider
+      options={{
+        smooth: true,
+      }}
+      watch={[]}
+      containerRef={containerRef}
+    >
+      <main className="bg-[#201e2a]" data-scroll-container ref={containerRef}>
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+    </LocomotiveScrollProvider>
   );
 }
