@@ -7,6 +7,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaFacebook,
+  FaRegNewspaper,
 } from "react-icons/fa";
 import { useState } from "react";
 
@@ -126,7 +127,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px]flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#526D82] py-2">
             <a className="flex justify-between items-center w-full" href="">
               Resume
-              <FaLinkedin size={30} />
+              <FaRegNewspaper size={30} />
             </a>
           </li>
         </ul>

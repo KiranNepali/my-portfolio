@@ -32,12 +32,12 @@ export default function Projects() {
                 Ecommerce
               </span>
               <div className="pt-8 text-center ">
-                <a href="">
+                <a href="https://compassion-candles.vercel.app/">
                   <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
                     Demo
                   </button>
                 </a>
-                <a href="">
+                <a href="https://github.com/KiranNepali/compassion-candles">
                   <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
                     Code
                   </button>
@@ -84,7 +84,27 @@ export default function Projects() {
                 Youtube clone
               </span>
               <div className="pt-8 text-center ">
-                <a href="">
+                <a href="https://youtube-clone-delta-ecru.vercel.app/">
+                  <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/KiranNepali/youtube-clone">
+                  <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+            {/* hover end  */}
+
+            {/* hover effect  */}
+            <div className="opacity-0 group-hover:opacity-100 text-center">
+              <span className="text-2xl font-bold tracking-wider text-white ">
+                Portfolio
+              </span>
+              <div className="pt-8 text-center ">
+                <a href="https://youtube-clone-delta-ecru.vercel.app/">
                   <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
                     Demo
                   </button>
