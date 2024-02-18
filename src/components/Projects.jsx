@@ -1,8 +1,8 @@
 import React from "react";
-import MovieImg from "../assets/movie.png";
 import EcommerceImg from "../assets/ecommerce.png";
 import RecipeApp from "../assets/find-recipe.png";
 import YoutubeClone from "../assets/youtube-clone.png";
+import PortfolioImg from "../assets/portfolio.png";
 import "../index.css";
 
 export default function Projects() {
@@ -97,7 +97,15 @@ export default function Projects() {
               </div>
             </div>
             {/* hover end  */}
-
+          </div>
+          {/* Close the div for Youtube clone project */}
+          {/* Portfolio project */}
+          <div
+            style={{
+              backgroundImage: `url(${PortfolioImg})`, // Adjust with your actual image variable
+            }}
+            className="shadow-lg shadow-[#040c16] container flex  justify-center items-center mx-auto rounded-md group content-div"
+          >
             {/* hover effect  */}
             <div className="opacity-0 group-hover:opacity-100 text-center">
               <span className="text-2xl font-bold tracking-wider text-white ">
@@ -109,7 +117,7 @@ export default function Projects() {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/KiranNepali/youtube-clone">
+                <a href="https://github.com/KiranNepali/my-portfolio">
                   <button className="text-center px-4 py-3 m-2 bg-white text-gray-300 font-bold text-lg rounded-lg">
                     Code
                   </button>
